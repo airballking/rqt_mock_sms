@@ -1,0 +1,20 @@
+<library path="src">
+  <class name="Mock SMS" type="rqt_mock_sms.mock_sms_module.MockSmsPlugin" base_class_type="rqt_gui_py::Plugin">
+    <description>
+      An RQT Python GUI plugin that acts as a mock SMS.
+    </description>
+    <qtgui>
+    <!-- optional grouping...
+    <group>
+      <label>Group</label>
+    </group>
+    <group>
+      <label>Subgroup</label>
+    </group>
+    -->
+      <label>Our mock SMS Python Plugin</label>
+      <icon type="theme">system-help</icon>
+      <statustip>Great user interface to provide real value.</statustip>
+    </qtgui>
+  </class>
+</library>
